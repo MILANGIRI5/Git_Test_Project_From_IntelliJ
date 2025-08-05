@@ -7,6 +7,6 @@ public class TestService {
 
     public String getTestValue() {
         String a = "test";
-        return "Application is working as expected............test";
+        return "Application is working as expected............check";
     }
 }
