@@ -6,7 +6,8 @@ import org.springframework.stereotype.Service;
 public class TestService {
 
     public String getTestValue() {
-        int a = 10;
+        String a = "test";
+        int no = 10;
         return "Application is working as expected............test";
     }
 }
