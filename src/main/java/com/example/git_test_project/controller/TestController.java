@@ -20,4 +20,8 @@ public class TestController {
         return new ResponseEntity<>(testService.getTestValue(), HttpStatus.OK);
     }
 
+    @GetMapping("/test")
+    public String getTestValue() {
+        return "Test Result";
+    }
 }
