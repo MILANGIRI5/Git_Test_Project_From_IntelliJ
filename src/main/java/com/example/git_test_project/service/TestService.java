@@ -8,6 +8,6 @@ public class TestService {
     public String getTestValue() {
         String a = "test";
         int no = 10;
-        return "Application is working as expected............test";
+        return "Application is working as expected............";
     }
 }
